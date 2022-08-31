@@ -4,7 +4,7 @@ export const data = [
         "id": 100795229,
         "from": "Kalkulator OC/AC - Onet <mailingi@onet.pl>",
         "sent_date": "2021-12-13 09:00:03",
-        "is_unread": false,
+        "is_unread": true,
         "subject": "Zaoszczędź! OC już od 230 zł",
         "snippet": ""
     },
