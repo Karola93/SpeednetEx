@@ -17,4 +17,4 @@ export const data = [
         "subject": "Wymień walutę szybko i tanio",
         "snippet": "Odbierz 50% rabatu na wymianę online"
     }
-]
+];
