@@ -15,7 +15,7 @@ export const checkboxSlice = createSlice({
         handleUnCheck(state) {
             state.isChecked = false;
         },
-        handleCheckboxId(state, action)  {
+        handleCheckboxId(state, action) {
             state.id = action.payload;
 
         }
