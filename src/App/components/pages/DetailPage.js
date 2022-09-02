@@ -1,9 +1,15 @@
 import React from "react";
+import Button from '../reuse/Button'
+import Detail from "../Detail";
+import {data} from "../../data/data";
 
-const DetailPage = ({data}) => {
-    const checked = data.filter(el => el["is_unread"])[0];
+const DetailPage = () => {
+
     return (
-        <h1>{checked['subject']}</h1>
+        <div>
+            <Detail data={data}/>
+            <Button type='text' text='Go back'/>
+        </div>
     );
 };
 

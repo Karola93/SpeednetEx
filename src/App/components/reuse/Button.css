@@ -1,0 +1,12 @@
+.btn {
+    margin: 4px;
+    background-color: #3cb1fc;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+button:hover,
+button:active {
+    background-color: navajowhite;
+    border-color: navajowhite;
+}
