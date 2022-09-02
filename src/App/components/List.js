@@ -1,8 +1,8 @@
 import React from "react";
 import {useNavigate} from "react-router-dom";
 import {useDispatch} from "react-redux";
-import './List.css';
 import {handleCheck, handleCheckboxId} from "../store/checkboxSlice";
+import './List.css';
 
 const List = ({data}) => {
     const dispatch = useDispatch();
@@ -15,8 +15,8 @@ const List = ({data}) => {
     };
 
     const getIdHandler = (id) => {
-        checkboxChangeHandler()
-        dispatch(handleCheckboxId(id))
+        checkboxChangeHandler();
+        dispatch(handleCheckboxId(id));
     };
 
     return (
@@ -29,7 +29,7 @@ const List = ({data}) => {
                         </label>
                     </li>
                 })
-            }
+            };
         </ul>
     )
 };
