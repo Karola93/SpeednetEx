@@ -1,5 +1,6 @@
 import React from "react";
 import {useNavigate} from "react-router-dom";
+import './List.css';
 
 const List = ({data}) => {
     const navigate = useNavigate();
@@ -10,7 +11,7 @@ const List = ({data}) => {
     }
 
     return (
-        <ul>
+        <ul className="list">
             {
                 data.map( (el) => {
                     return <li key={el['id']}>
