@@ -1,4 +1,3 @@
-import './App.css';
 import HomePage from "./components/pages/HomePage";
 import DetailPage from "./components/pages/DetailPage";
 import {data} from "./data/data";
