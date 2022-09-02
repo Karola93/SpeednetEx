@@ -21,7 +21,7 @@ const List = ({data}) => {
     return (
         <ul className="list">
             {
-                data.map( (el) => {
+                data.map((el) => {
                     return <li key={el['id']}>
                         <label>
                             <input key={el['id']} type="checkbox" onClick={() => getIdHandler(el['id'])}/> {el['from']}
