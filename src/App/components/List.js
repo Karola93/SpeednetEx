@@ -8,8 +8,7 @@ const List = ({data}) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
-    const checkboxChangeHandler = (e) => {
-        e.preventDefault();
+    const checkboxChangeHandler = () => {
         dispatch(handleCheck());
         navigate('/detail');
     };
@@ -29,7 +28,7 @@ const List = ({data}) => {
                         </label>
                     </li>
                 })
-            };
+            }
         </ul>
     )
 };
