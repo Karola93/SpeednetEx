@@ -1,15 +1,15 @@
+import React from "react";
+import {Route, Routes} from 'react-router-dom';
 import HomePage from "./components/pages/HomePage";
 import DetailPage from "./components/pages/DetailPage";
-import {data} from "./data/data";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <HomePage/>
-          <DetailPage data={data}/>
-      </header>
-    </div>
+      <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/detail" element={<DetailPage/>}></Route>
+      </Routes>
   );
 }
 
